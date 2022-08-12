@@ -1,5 +1,5 @@
 body{
-  background: cyan
+  background: #cccccc
 }
 h1 {
   text-align: center;
@@ -24,7 +24,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 30px;
-  background: rgb(233, 250, 0);
+  background: rgb(0, 221, 250);
   top: 0;
   left: 0;
 
@@ -55,4 +55,21 @@ li a:hover{
   color: brown;
   background: black;
 }
-
+#image{
+  width: 20%;
+}
+.boxImage{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background:rgb(221, 139, 196);
+  top: 50px;
+  left:0;
+  margin:20px;
+  border-color: rgb(160, 63, 160) ;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+}
