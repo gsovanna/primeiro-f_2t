@@ -1,5 +1,7 @@
 body{
-  background: #cccccc
+  background: #cccccc;
+  margin: 0%;
+  padding: 0%;
 }
 h1 {
   text-align: center;
@@ -7,8 +9,8 @@ h1 {
 .caixa1 {
   position:absolute;
   background: purple;
-  width: 200px;
-  height: 200px;
+  width: 40%;
+  height: 50%;
   color:  white;
   left: 40%
 }
@@ -23,7 +25,7 @@ h1 {
 .menuprincipal { 
   position: absolute;
   width: 100%;
-  height: 30px;
+  height: 100px;
   background: rgb(0, 221, 250);
   top: 0;
   left: 0;
@@ -47,13 +49,13 @@ float: left;
 li a {
   display: block;
   color: rgb(41, 41, 41);
-  padding: 5px 3px;
+  padding: 14px 16px;
   text-align: center;
   text-decoration: none;
 }
 li a:hover{
-  color: brown;
-  background: black;
+  color: rgb(47, 104, 179);
+  background: rgb(12, 10, 10);
 }
 #image{
   width: 20%;
@@ -63,13 +65,28 @@ li a:hover{
   justify-content: center;
   position: absolute;
   width: 100%;
-  height: 200px;
+  height: 99%;
   background:rgb(221, 139, 196);
-  top: 50px;
-  left:0;
+  top: 10px;
+  left:0%;
   margin:20px;
   border-color: rgb(160, 63, 160) ;
   border-width: 20px;
   border-style: solid;
   padding: 20px;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
+}
+#rodape {
+  width: 100%;
+  height: 35px;
+  background: rgb(183, 112, 231);
+  color: rgb(5, 3, 4);
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+
 }
